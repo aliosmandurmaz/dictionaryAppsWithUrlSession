@@ -16,6 +16,10 @@
 		E6B1CA9427E26E2C008408CC /* SozlukUygulamasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CA9327E26E2C008408CC /* SozlukUygulamasiTests.swift */; };
 		E6B1CA9E27E26E2C008408CC /* SozlukUygulamasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CA9D27E26E2C008408CC /* SozlukUygulamasiUITests.swift */; };
 		E6B1CAA027E26E2C008408CC /* SozlukUygulamasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CA9F27E26E2C008408CC /* SozlukUygulamasiUITestsLaunchTests.swift */; };
+		E6B1CAAD27E27390008408CC /* KelimeHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CAAC27E27390008408CC /* KelimeHucreTableViewCell.swift */; };
+		E6B1CAAF27E2798D008408CC /* KelimeDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CAAE27E2798D008408CC /* KelimeDetayViewController.swift */; };
+		E6B1CAB127E27C68008408CC /* Kelimeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CAB027E27C68008408CC /* Kelimeler.swift */; };
+		E6B1CAB327E284D0008408CC /* SozlukCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CAB227E284CF008408CC /* SozlukCevap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		E6B1CA9927E26E2C008408CC /* SozlukUygulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SozlukUygulamasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B1CA9D27E26E2C008408CC /* SozlukUygulamasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SozlukUygulamasiUITests.swift; sourceTree = "<group>"; };
 		E6B1CA9F27E26E2C008408CC /* SozlukUygulamasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SozlukUygulamasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6B1CAAC27E27390008408CC /* KelimeHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeHucreTableViewCell.swift; sourceTree = "<group>"; };
+		E6B1CAAE27E2798D008408CC /* KelimeDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeDetayViewController.swift; sourceTree = "<group>"; };
+		E6B1CAB027E27C68008408CC /* Kelimeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelimeler.swift; sourceTree = "<group>"; };
+		E6B1CAB227E284CF008408CC /* SozlukCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SozlukCevap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				E6B1CA8527E26E2C008408CC /* Assets.xcassets */,
 				E6B1CA8727E26E2C008408CC /* LaunchScreen.storyboard */,
 				E6B1CA8A27E26E2C008408CC /* Info.plist */,
+				E6B1CAAC27E27390008408CC /* KelimeHucreTableViewCell.swift */,
+				E6B1CAAE27E2798D008408CC /* KelimeDetayViewController.swift */,
+				E6B1CAB027E27C68008408CC /* Kelimeler.swift */,
+				E6B1CAB227E284CF008408CC /* SozlukCevap.swift */,
 			);
 			path = SozlukUygulamasi;
 			sourceTree = "<group>";
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6B1CAB127E27C68008408CC /* Kelimeler.swift in Sources */,
 				E6B1CA8127E26E2B008408CC /* ViewController.swift in Sources */,
+				E6B1CAAF27E2798D008408CC /* KelimeDetayViewController.swift in Sources */,
 				E6B1CA7D27E26E2B008408CC /* AppDelegate.swift in Sources */,
+				E6B1CAB327E284D0008408CC /* SozlukCevap.swift in Sources */,
+				E6B1CAAD27E27390008408CC /* KelimeHucreTableViewCell.swift in Sources */,
 				E6B1CA7F27E26E2B008408CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
